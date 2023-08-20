@@ -1,5 +1,5 @@
 # Newsletter 
-> Site para Ler as ultimas noticias.
+> Site de artigos do mundo dev.
 
 ## Tecnologias
 * React
