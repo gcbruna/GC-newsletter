@@ -1,4 +1,4 @@
-# Newsletter 
+# GC Newsletter 
 > Site de artigos do mundo dev.
 
 ## Tecnologias
@@ -6,5 +6,5 @@
 * TailwindCSS
 
 ```
-Status do Projeto: CONSTRUÇÃO
+Status do Projeto: Finalizado
 ```
