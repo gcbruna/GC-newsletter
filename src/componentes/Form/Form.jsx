@@ -1,5 +1,3 @@
-import Input from "../Input/Input"
-
 const Form = ({  onSubmit  }) => {
     const safeSubmit = event => {
         event.preventDefault()
@@ -9,10 +7,12 @@ const Form = ({  onSubmit  }) => {
         onSubmit({ name, email })
     }
 
-    return <form onSubmit={safeSubmit} className="h-full flex flex-col items-center justify-center gap-10 -mt-40 mx-5">
-        <Input type="text" required placeholder="Insira seu nome" />
-        <Input type="email" required placeholder="Insira seu e-mail" />
-        <button type="submit" className="py-1 px-5 w-full max-w-sm bg-roxo-100 dark:bg-dark-200 rounded-full text-gray-200 uppercase outline-none">Seguir</button>
+    return <form onSubmit={safeSubmit} className="h-full flex flex-col items-center justify-center gap-4 -mt-40 mx-5">
+        <label className="pt-4 pl-5 w-full max-w-lg text-dark-200 dark:text-gray-200">Nome:</label>
+        <input type="text" className="gc-input" required placeholder="Insira seu nome" />
+        <label className="pt-4 pl-5 w-full max-w-lg text-dark-200 dark:text-gray-200">E-mail:</label>
+        <input type="email" className="gc-input" required placeholder="Insira seu e-mail" />
+        <button type="submit" className="button">Seguir</button>
     </form>
 
 }
