@@ -14,6 +14,3 @@ https://gc-newsletter.vercel.app
 ### Pagina Conteúdo
 ![pagina 02](https://github.com/gcbruna/GC-newsletter/assets/115025421/6f1af31b-e940-4c24-ba9c-9d405ed8f9a3)
 
-```
-Status do Projeto: Finalizado
-```
